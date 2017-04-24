@@ -1,0 +1,18 @@
+/**
+ * Override Bootstrap styles that you can't modify via variables here.
+ *
+ */
+@import "../../node_modules/react-input-range/src/scss/index";
+@import "../../node_modules/react-select/scss/default";
+
+.navbar-brand {
+  position: relative;
+  padding-left: 50px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #33e0ff;
+  background-color: transparent;
+}
