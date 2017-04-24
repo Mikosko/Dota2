@@ -58,7 +58,7 @@ class CalculatorForm extends Component {
     const {data, value} = this.props;
     return (
       <div className={style.wrapper}>
-        <h3><FormattedMessage {...messages.amount}/></h3>
+        <h3><FormattedMessage {...messages.amount}/> Test</h3>
         <CalculatorInput
           id="amount"
           minValue={data.amountInterval.min}
